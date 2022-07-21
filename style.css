@@ -136,6 +136,7 @@ h1 {
     height: 362px;
     border-radius: 20px;
     margin: 20px 20px;
+
 }
 
 .small-box-3 {
@@ -194,6 +195,16 @@ h1 {
     margin: 20px 20px;
 }
 
+.fa-clock {
+    color: #908f8ff6;
+
+}
+
+.fa-comment-dots {
+    color: #908f8ff6;
+    margin-left: 10px;
+}
+
 .box2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -202,9 +213,49 @@ h1 {
     width: 500px;
 
 
+
 }
 
 .middle-head {
     display: flex;
     margin-left: 180px;
+}
+
+.middle {
+    height: 1250px;
+}
+
+/* footer */
+.footer {
+    background-color: #161616;
+
+    height: 444px;
+
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+hr {
+    border: 1px solid rgba(249, 242, 242, 0.1);
+}
+
+.part1 {
+    padding: 100px 50px;
+}
+
+.link2 {
+    text-align: center;
+}
+
+.link2 a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 20px;
+    margin-right: 20px;
 }
