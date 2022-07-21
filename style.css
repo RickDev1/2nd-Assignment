@@ -110,6 +110,8 @@ h1 {
 }
 
 
+
+
 .l1 {
     background-color: white;
     width: 252px;
@@ -130,8 +132,8 @@ h1 {
     width: 252px;
     height: 64px;
     margin: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
     text-align: center;
     align-items: center;
@@ -166,6 +168,7 @@ h1 {
 
 .a3 {
     color: white;
+
 
 }
 
@@ -326,4 +329,93 @@ hr {
     color: #B9B9B9;
     font-size: 20px;
     margin-right: 20px;
+}
+
+/* media query */
+/* tablet */
+@media screen and (max-width:820px) {
+
+
+    .container {
+        display: grid;
+        width: 794px;
+        height: 398px;
+        margin-left: 5px;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    h1 {
+
+        font-size: 40px;
+
+    }
+
+    .text1 {
+        font-size: 14px;
+    }
+
+    .link1 {
+        width: 161px;
+        height: 48px;
+    }
+
+    .img img {
+        width: 323px;
+        height: 340px;
+    }
+
+    .middle-head {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* middle    */
+    .box1 {
+        height: 175px;
+        margin-left: 5px;
+        margin-left: -40px;
+        background-color: white;
+    }
+
+    .b1 {
+
+        display: flex;
+        width: 600px;
+    }
+
+    .b1 li {
+
+        padding: 0 70px 0;
+        border: 1px solid gray;
+    }
+
+
+    /* box2 */
+
+    .middle {
+        height: 2300px;
+        width: 100px;
+        margin-left: -125px;
+    }
+
+    .footer {
+
+        height: 345px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .link2 {
+        font-size: 16px;
+    }
 }
