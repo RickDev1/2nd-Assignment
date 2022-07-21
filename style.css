@@ -356,6 +356,12 @@ hr {
     margin-right: 20px;
 }
 
+.fa-facebook-square,
+.fa-instagram-square,
+.fa-github-square {
+    font-size: 40px;
+}
+
 /* media query */
 /* tablet */
 @media screen and (max-width:992px) {
