@@ -6,7 +6,7 @@ body {
 
 .container {
     background: #161616;
-    width: 1321px;
+    width: 1370px;
     height: 646px;
     border-radius: 30px;
     margin: 50px 180px;
@@ -56,6 +56,8 @@ h1 {
     width: 312px;
     height: 312px;
     border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
 
 }
 
@@ -83,6 +85,7 @@ h1 {
     height: 64px;
     margin: 10px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .l2 {
@@ -93,6 +96,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .l3 {
@@ -101,17 +105,106 @@ h1 {
     height: 64px;
     margin: 10px;
     border-radius: 5px;
+    text-align: center;
+
 }
 
 .small-box-1 {
     border: 1px solid black;
     width: 312px;
     height: 362px;
+    border-radius: 20px;
+    margin: 20px 20px;
 }
 
 .t1 {
     border: 1px solid black;
     width: 67px;
     height: 24px;
-    font-size: 15px;
+
+    text-align: center;
+    border-radius: 5px;
+}
+
+.item {
+    margin: 0 10px;
+}
+
+.small-box-2 {
+    border: 1px solid black;
+    width: 312px;
+    height: 362px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.small-box-3 {
+    border: 1px solid black;
+    width: 312px;
+    height: 362px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.small-box-4 {
+    border: 1px solid black;
+    width: 312px;
+    height: 362px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.small-box-5 {
+    border: 1px solid black;
+    width: 312px;
+    height: 362px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.small-box-6 {
+    border: 1px solid black;
+    width: 312px;
+    height: 362px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.small-box-7 {
+    border: 1px solid black;
+    width: 312px;
+    height: 362px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.small-box-8 {
+    border: 1px solid black;
+    width: 312px;
+    height: 362px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.small-box-9 {
+    border: 1px solid black;
+    width: 312px;
+    height: 362px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 500px;
+    width: 500px;
+
+
+}
+
+.middle-head {
+    display: flex;
+    margin-left: 180px;
 }
